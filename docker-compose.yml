@@ -1,0 +1,12 @@
+version: "3"
+services:
+  python:
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    tty: true
+    volumes:
+      - ./:/workspace
