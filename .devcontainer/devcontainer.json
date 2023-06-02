@@ -1,0 +1,15 @@
+{
+    "name": "Python dev",
+    "dockerComposeFile": ["../docker-compose.yml", "docker-compose.yml"],
+    "service": "python",
+    "workspaceFolder": "/workspace",
+    "cwd": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }	
+}
